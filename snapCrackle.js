@@ -1,8 +1,9 @@
-let mensagem = ''
 
 function snapCrackle (maxValue){
+
+    let mensagem = ''
   
-    for (let i = 1; i < maxValue; i++){
+    for (let i = 1; i <= maxValue; i++){
         if(i % 5 == 0 && i % 2 !== 0 ) {
             mensagem = mensagem + 'SnapCrackle'
         }
